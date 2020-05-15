@@ -9,12 +9,12 @@ def join_nested_strings(src)
     while inner_index< src[row_index].count do
       
       if src[row_index][inner_index] == string
-        
+        nested_strings << src[row_index][inner_index] + ""
        
       end
       inner_index += 1 
     end
-     nested_strings << src[row_index][inner_index].join('')
+     
   row_index += 1 
 end
 nested_strings
