@@ -8,7 +8,7 @@ def join_nested_strings(src)
   
     while inner_index< src[row_index].count do
       
-      if src[row_index][inner_index] == string
+      if src[row_index][inner_index].class == string
         nested_strings << src[row_index][inner_index] + ""
        
       end
