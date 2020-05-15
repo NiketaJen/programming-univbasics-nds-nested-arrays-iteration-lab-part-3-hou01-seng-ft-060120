@@ -5,13 +5,12 @@ def join_nested_strings(src)
   
   while row_index < src.count do 
     inner_index=0 
-   #string_element= ""
-    
+  
     while inner_index< src[row_index].count do
       
-      if src[row_index][inner_index] == " "
+      if src[row_index][inner_index] == string
         
-       #string_element=src[row_index][inner_index]
+       
       end
       inner_index += 1 
     end
